@@ -156,14 +156,14 @@ header {
 }
 
 .slider-item .slide-content .slide-subtitle {
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: normal;
     opacity: 0;
     transform: translateY(60%);
 }
 
 .slider-item .slide-content .slide-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-top: 5px;
     text-transform: uppercase;
@@ -353,8 +353,19 @@ header {
         font-size: 0.8rem;
     }
 
+    .slider-item .slide-content .slide-subtitle {
+        font-size: 1.5rem; 
+    }
+
+    .slider-item .slide-content .slide-title {
+        font-size: 1.5rem; 
+    }
+
     .slider-wrapper .slider-item .slide-content > * {
         max-width: 100%;
+    }
+
+    .slide-description {
         font-size: 0.8rem;
     }
 
