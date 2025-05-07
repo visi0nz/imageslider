@@ -118,6 +118,7 @@ header {
 
 .slider-wrapper .slider-item:nth-child(6):before {
     background-image: url("./images/southafrica.jpg");
+    transform: scaleX(-1);
 }
 
 .slider-wrapper .slider-item:nth-child(7):before {
@@ -151,19 +152,19 @@ header {
     }
 }
 
-.slider-wrapper .slider-item .slide-content > * {
-    max-width: 35%;
+.slider-item .slide-content .slide-description {
+    max-width: 45%;
 }
 
 .slider-item .slide-content .slide-subtitle {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: normal;
     opacity: 0;
     transform: translateY(60%);
 }
 
 .slider-item .slide-content .slide-title {
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 700;
     margin-top: 5px;
     text-transform: uppercase;
@@ -350,7 +351,7 @@ header {
     }
 
     .header-text {
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     .slider-item .slide-content .slide-subtitle {
@@ -373,6 +374,7 @@ header {
     .slider-wrapper .slider-item:nth-child(6):before {
         background-image: url("./images/southafrica.jpg");
         background-position: 10% center;
+        transform: scaleX(1);
     }
 
     .slide-description {
@@ -386,7 +388,7 @@ header {
 
 }
 
-@media (orientation: landscape) {
+@media  (orientation: landscape ) and  (max-width: 916px) {
     .logo {
         top: 10px; /* Adjust vertical positioning */
         left: 10px;
