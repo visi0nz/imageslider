@@ -316,11 +316,14 @@ header {
     .slider-controls .slider-pagination {
         width: 85%;
     }
-
 }
 
 
 @media (max-width: 1024px) {
+    .logo img {
+        width: 60px; 
+    }
+
     .slider-wrapper .slider-item .slide-content,
     .slider-controls .slider-pagination {
         width: 100%;
@@ -342,8 +345,22 @@ header {
 }
 
 @media (max-width: 768px) {
+    .logo img {
+        width: 50px; 
+    }
+
+    .header-text {
+        font-size: 0.8rem;
+    }
+
     .slider-wrapper .slider-item .slide-content > * {
         max-width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .slider-item .slide-content .slide-button {
+        padding: 10px 0;
+        margin-bottom: 3rem;
     }
 
 }
