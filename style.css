@@ -354,12 +354,17 @@ header {
         font-size: 1rem;
     }
 
+    .icon {
+        font-size: 2rem; 
+    }
+
+
     .slider-item .slide-content .slide-subtitle {
-        font-size: 1.5rem; 
+        font-size: 2rem; 
     }
 
     .slider-item .slide-content .slide-title {
-        font-size: 1.5rem; 
+        font-size: 2rem; 
     }
 
     .slider-wrapper .slider-item .slide-content > * {
@@ -390,23 +395,23 @@ header {
 
 @media  (orientation: landscape ) and  (max-width: 916px) {
     .logo {
-        top: 10px; /* Adjust vertical positioning */
+        top: 10px; 
         left: 10px;
     }
 
     .header-text {
-        font-size: 1rem; /* Slightly reduce font size if it seems too large */
+        font-size: 1.5rem; 
         line-height: 1.5;
     }
 
     .socials-container {
-        top: 10px; /* Adjust vertical positioning */
+        top: 10px; 
         right: 10px;
-        gap: 10px; /* Reduce spacing between icons */
+        gap: 10px; 
     }
 
     .icon {
-        font-size: 1.5rem; /* Slightly reduce icon size */
+        font-size: 2rem; 
     }
 
     /* Adjust slider content */
