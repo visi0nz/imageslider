@@ -365,6 +365,16 @@ header {
         max-width: 100%;
     }
 
+    .slider-wrapper .slider-item:nth-child(4):before {
+        background-image: url("./images/germany.jpg");
+        background-position: 10% center;
+    }
+
+    .slider-wrapper .slider-item:nth-child(6):before {
+        background-image: url("./images/southafrica.jpg");
+        background-position: 10% center;
+    }
+
     .slide-description {
         font-size: 0.8rem;
     }
@@ -374,4 +384,72 @@ header {
         margin-bottom: 3rem;
     }
 
+}
+
+@media (orientation: landscape) {
+    .logo {
+        top: 10px; /* Adjust vertical positioning */
+        left: 10px;
+    }
+
+    .header-text {
+        font-size: 1rem; /* Slightly reduce font size if it seems too large */
+        line-height: 1.5;
+    }
+
+    .socials-container {
+        top: 10px; /* Adjust vertical positioning */
+        right: 10px;
+        gap: 10px; /* Reduce spacing between icons */
+    }
+
+    .icon {
+        font-size: 1.5rem; /* Slightly reduce icon size */
+    }
+
+    /* Adjust slider content */
+    .slider-wrapper .slider-item .slide-content {
+        max-width: 100%; 
+        padding: 0 30px 15px 130px; 
+    }
+
+    .slider-item .slide-content .slide-subtitle {
+        font-size: 1.5rem; 
+    }
+
+    .slider-item .slide-content .slide-title {
+        font-size: 1.5rem; 
+    }
+
+    .slider-item .slide-content .slide-description {
+        font-size: 0.8rem;
+        line-height: 22px;
+    }
+
+    .slider-item .slide-content .slide-button {
+        width: 200px; 
+        padding: 10px 0; 
+        margin-bottom: 4rem;
+        margin-top: 1rem;
+    }
+
+
+    .slider-container .slider-controls {
+        bottom: 20px; 
+    }
+
+    .slider-controls .slider-pagination .slider-tab {
+        padding: 15px 20px; 
+        font-size: 0.75rem; 
+    }
+
+    .slider-navigations #slide-prev {
+        top: 50%;
+        left: 10px; 
+    }
+
+    .slider-navigations #slide-next {
+        top: 50%; 
+        right: 10px;
+    }
 }
